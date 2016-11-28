@@ -208,7 +208,7 @@ td {
 
 /* Wrapper */
 .wrapper {
-  width:960px;
+  width:100%;
 }
 
 
@@ -217,7 +217,7 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
+  width:13%;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -266,7 +266,7 @@ header ul {
 
 header li {
 	list-style-type: none;
-  width:132px;
+  /*width:132px;*/
   height:15px;
 	margin-bottom: 12px;
 	line-height: 1em;
@@ -320,7 +320,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
+  width:77%;
   float:right;
   padding-bottom:50px;
 }
@@ -333,7 +333,7 @@ section p{
 /* Footer */
 
 footer {
-  width:170px;
+  width:13%;
   float:left;
   position:fixed;
   bottom:10px;
@@ -362,6 +362,10 @@ footer small {
 		margin:0 84px 0 50px;
 		padding:0;
 	}
+	
+	footer small {
+	color: #232323;
+}
 
   header {
     padding-right:320px;
